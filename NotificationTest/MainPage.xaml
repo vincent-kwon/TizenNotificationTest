@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c:CirclePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:c="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+             x:Class="NotificationTest.MainPage">
+    <c:CirclePage.Content>
+        <StackLayout >
+            <Button Clicked="TwoButtonClicked" Text="Send Noti 2 button" VerticalOptions="FillAndExpand"></Button>
+            <Button Clicked="ThreeButtonClicked" Text="Send Noti 3 button" VerticalOptions="FillAndExpand"></Button>
+            <Button Clicked="SimpleClicked" Text="Send Noti Simple" VerticalOptions="FillAndExpand"></Button>
+            <Button Clicked="StartServiceClicked"  Text="Start Service" VerticalOptions="FillAndExpand"></Button>
+            <Button Clicked="StopServiceClicked"  Text="Stop Service" VerticalOptions="FillAndExpand"></Button>
+        </StackLayout>
+    </c:CirclePage.Content>
+</c:CirclePage>

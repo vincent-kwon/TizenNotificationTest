@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest package="org.tizen.example.NotificationSenderService" version="1.0.0" api-version="4" xmlns="http://tizen.org/ns/packages">
+    <profile name="common" />
+    <service-application appid="org.tizen.example.NotificationSenderService" exec="NotificationSenderService.dll" multiple="false" nodisplay="true" taskmanage="false" type="dotnet">
+        <label>NotificationSenderService</label>
+        <icon>NotificationSenderService.png</icon>
+        <splash-screens />
+    </service-application>
+    <shortcut-list />
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+    </privileges>
+    <provides-appdefined-privileges />
+</manifest>
